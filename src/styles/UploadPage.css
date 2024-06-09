@@ -1,0 +1,33 @@
+.upload-page {
+  padding: 20px;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+}
+
+.drag-drop-box {
+  padding: 50px;
+  border: 2px dashed #ddd;
+  text-align: center;
+}
+
+.drag-drop-box p {
+  margin: 0 0 20px;
+}

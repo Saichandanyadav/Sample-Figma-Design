@@ -1,0 +1,37 @@
+.project-page {
+  padding: 20px;
+}
+
+.project-page .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  flex: 1 1 calc(33.333% - 40px);
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-card h2 {
+  margin: 10px 0;
+}
+
+.project-card p {
+  margin: 5px 0;
+}
